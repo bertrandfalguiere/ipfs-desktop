@@ -140,6 +140,7 @@ Other languages are periodically pulled from [Transifex](https://www.transifex.c
         1. `cd pkgs/chocolatey`
         2. `choco pack` - generates a `.nupkg` file.
         3. `choco push $generated_nupkg --key $api --source https://push.chocolatey.org`
+- Update the links to the last release in the Readme.
 - To start work on the next version, bump the version in the package.json and repeat theses steps.
 
 ## Contribute
