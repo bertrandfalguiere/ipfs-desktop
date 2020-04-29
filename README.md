@@ -128,7 +128,7 @@ Other languages are periodically pulled from [Transifex](https://www.transifex.c
     1. Download `.dmg` from `https://github.com/ipfs-shipyard/ipfs-desktop/releases/vA.B.C`
     2. Ensure `APPLEID` and `APPLEIDPASS` are set either as environment variables or entries in `.env` file. Those need to belong to the same org as cert used for signing.
     3. Run `node pkgs/macos/notarize-cli.js ./IPFS-Desktop-A.B.C.dmg`
-- Update links and badges in `README` to point at new version (`A.B.C`)
+- Update links and badges in `README` to point to the new version (`A.B.C`)
 - Update [Homebrew Cask](https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md#updating-a-cask).
 - Update Chocolatey package:
     1. Wait for the artefact on the [releases page](https://github.com/ipfs-shipyard/ipfs-desktop/releases)
